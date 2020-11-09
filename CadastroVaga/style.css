@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+.titulo{
+    margin-left: 8px;
+    width: 20px;
+    font-size: 3px;
+    font-weight: 2px;
+}
+.box{
+    display: flex;
+    width: 20px;
+    align-self: baseline;
+}
+.form{
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+}

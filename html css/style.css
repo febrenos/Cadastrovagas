@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px 0 20px;
+}
+
+
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+.add{
+    border: none;
+    flex-direction: column;
+    padding: 4px;
+}
+.iconemais{
+    width: 16px;
+    display:inline-block;
+    margin-right:0.5px;
+    position:relative;
+    top: 3px;
+    text-decoration: none;
+} 
+.iconemais img{
+    height:25px;
+    width: 25px;
+    
+}
+.titulo{
+    text-decoration: none;
+    margin-left: 8px;
+    width: 20px;
+    font-size: 3px;
+    font-weight: 2px;
+} 
+.button{
+    /* justify-content: center;
+    padding: 5.5px 55px;*/
+    padding: 5px 55px 5px;
+    margin: 0 auto;
+    background-color: #DF2F2F;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    display: flex;
+}
+
+body{
+    background: #EEEEEE;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background: #fff;
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+  /* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    margin-top: 6px;
+}
+.col-75 {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    *{
+        margin: 0;
+    }
+}
